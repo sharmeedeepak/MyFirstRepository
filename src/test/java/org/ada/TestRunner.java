@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src\\test\\resources\\Features",
 				 glue="com.ada",
-				 dryRun = true, 
+//				 dryRun = true, 
 				 plugin = "junit",
 				 publish = true)
 
